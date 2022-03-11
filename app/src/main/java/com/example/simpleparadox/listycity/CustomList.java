@@ -47,4 +47,8 @@ public class CustomList extends ArrayAdapter<City> {
         return view;
 
     }
+
+    public Boolean hasCity(City city){
+        return cities.contains(city);
+    }
 }
